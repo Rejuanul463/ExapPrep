@@ -20,13 +20,13 @@ public static void main(String[] args) {
 			System.out.println("Loading data ...");			
 			try {
 			BufferedReader s = new BufferedReader(
-					new InputStreamReader(
-							new FileInputStream("students.txt"))); 
-			String r = s.readLine(); System.out.println(r);
-			String i[] = r.split(",");	
-			Random x = new Random();
+				new InputStreamReader(
+						new FileInputStream("students.txt"))); 
+			    String r = s.readLine(); System.out.println(r);
+			    String i[] = r.split(",");	
+			    Random x = new Random();
 				int y = x.nextInt();
-					System.out.println(i[y]);
+				System.out.println("x");
 			} catch (Exception e){} 
 			System.out.println("Data Loaded.");			
 		}
